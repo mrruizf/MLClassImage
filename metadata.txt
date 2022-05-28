@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MLClassImage
+qgisMinimumVersion=3.0
+description=Plugin para QGIS 3.X para la clasificación de imágenes satelitales mediante algoritmos de machine learning. (SVM, KNN, RF)
+version=1.0
+author=Marlon Ruiz / Universidad Distrital
+email=mrruizf@correo.udistrital.edu.co
+
+about=El siguiente desarrollo está basado en python 3, donde se implementa la libreria de sklearn, para implementar los algoritmos de clasificación supervisada. Se debe realizar la instalación de la libreria, en el entorno de desarrollo de QGIS 3.X, para esto se puede usar el comando: $ pip install -U scikit-learn El presente plugin fue desarrollado en QGIS 3.18
+
+tracker=https://gitlab.com/mrruizf/mlclassimage.git
+repository=https://gitlab.com/mrruizf/mlclassimage.git
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, raster, remote sensing, shapefile, statistics, table, vector
+
+homepage=https://gitlab.com/mrruizf/mlclassimage.git
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
